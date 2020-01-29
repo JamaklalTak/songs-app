@@ -3,15 +3,13 @@ import Styled from 'styled-components';
 import { dim } from '../../Styles/theme';
 
 const HomeStyledContainer = Styled.div`
-padding: 0px 5%;
-
 .container {
   display: flex;
   flex-wrap: wrap;
 }
 
 .poster-container {
-  width: ${dim._scale(128)};
+  width: ${dim._scale(148)};
   margin: ${dim._8px};
 }
 
