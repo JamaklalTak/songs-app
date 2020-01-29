@@ -10,6 +10,7 @@ width: 100%;
 `;
 
 const PagesStyledContainer = Styled.div`
+padding: 0px 10%;
 background-color: ${props => props.theme.color.base_80};
 max-height: ${dim._scale(height - 80)};
 overflow-y: scroll;
